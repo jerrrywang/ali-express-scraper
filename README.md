@@ -11,7 +11,7 @@ Given an AliExpress product feedback url (found in the reviews iframe of any Ali
 ```
 getAllAliExpressReviews(
   "INSERT URL HERE", // eg: "//feedback.aliexpress.com/display/productEvaluation"
-  "INSERT FILE NAME HERE" // eg: transparent_glasses
+  "INSERT FILE NAME HERE" // eg: "transparent_glasses"
   {
     reviewTypes: [1, 2, 3, 4, 5],
     translate: false,
